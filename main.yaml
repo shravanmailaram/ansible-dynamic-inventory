@@ -7,3 +7,13 @@
   - name: pring Hi
     debug:
       msg: "Hi"
+
+  - name: install nginx
+    dnf:
+      name: nginx
+      state: present
+
+  - name: start nginx
+    service:
+      name: nginx
+      state: started
