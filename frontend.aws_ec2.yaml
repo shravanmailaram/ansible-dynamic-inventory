@@ -8,4 +8,4 @@ hostnames:
 - private-ip-address
 keyed_groups:
   - key: tags.Name
-    separator: "-"
+    separator: ''
